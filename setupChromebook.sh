@@ -17,6 +17,10 @@ echo ""
 echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash
 
+### run nvm commands to prevent having to close terminal to refresh
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash
+
 ### install node
 echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash
