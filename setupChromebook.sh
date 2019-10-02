@@ -14,50 +14,50 @@ echo ""
 echo ""
 
 ### install nvm
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash
 
 ### install node
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash
 
 ### install java
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash
+# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash
 
 ### install Maven
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash
+# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash
 
 ### install vscode
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/vscode/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/vscode/install.sh | bash
 
 ### install chrome
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/chrome/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/chrome/install.sh | bash
 
 ### install Postman
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/postman/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/postman/install.sh | bash
 
 ### install slack
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash
+# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/slack/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/slack/install.sh | bash
 
 ### install firebase
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/firebase/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/firebase/install.sh | bash
 
 ### install polymer
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/polymer/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/polymer/install.sh | bash
 
 ### install dataloader
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash
+# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/install.sh | bash
 
-### cleaning up
+### cleaning up 
 sudo apt autoremove -y
 sudo apt update -y
 sudo apt upgrade -y
