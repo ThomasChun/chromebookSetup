@@ -16,7 +16,7 @@ echo ""
 echo BEGIN installing GIMP
 echo ""
 echo flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
-flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
+sudo flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref -y
 echo ""
 echo END installing GIMP
 echo ""
