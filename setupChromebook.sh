@@ -53,6 +53,10 @@ sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/maste
 echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/polymer/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/polymer/install.sh | bash
 
+### install flatpak + GIMP
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/flatpakGimp/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/flatpakGimp/install.sh | bash
+
 ### install dataloader
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/install.sh | bash"
 # sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/install.sh | bash
