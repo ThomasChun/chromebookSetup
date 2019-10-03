@@ -23,19 +23,17 @@
 # echo ""
 
 ### install node
-. ~/.nvm/nvm.sh
-echo BEGIN installing node
-echo ""
-echo nvm install node
-nvm install node
-echo ""
-echo ""
-echo ""
-echo ""
-echo nvm ls
-nvm ls
-echo ""
-echo ""
+# . ~/.nvm/nvm.sh
+# echo BEGIN installing node
+# echo ""
+# echo nvm install node
+# nvm install node
+# echo ""
+# echo ""
+# echo nvm ls
+# nvm ls
+# echo ""
+# echo ""
 
 ### install nvm
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash"
