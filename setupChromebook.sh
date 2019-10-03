@@ -22,12 +22,12 @@
 # sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash
 
 ### install java
-# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash"
-# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash
 
 ### install Maven
-# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash"
-# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/maven/install.sh | bash
 
 ### install dataloader
 echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/install.sh | bash"
