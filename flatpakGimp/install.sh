@@ -5,7 +5,7 @@ echo ""
 echo sudo apt update 
 sudo apt update 
 echo ""
-echo sudo apt install flatpak
+echo sudo apt -y install flatpak
 sudo apt install flatpak
 echo ""
 echo END installing flatpak
