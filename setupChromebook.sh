@@ -22,6 +22,21 @@ echo END installing nvm
 echo ""
 echo ""
 
+### install node
+. ~/.nvm/nvm.sh
+echo BEGIN installing node
+echo ""
+echo nvm install node
+nvm install node
+echo ""
+echo ""
+echo ""
+echo ""
+echo nvm ls
+nvm ls
+echo ""
+echo ""
+
 ### install nvm
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash"
 # sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash
@@ -31,8 +46,8 @@ echo ""
 # sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash
 
 ### install node
-echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash
+# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash
 
 ### install java
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/java/install.sh | bash"
