@@ -26,4 +26,9 @@ Usage:
 2. Click the Turn on button to enable Linux on the Chromebook
 3. Click the Install button
 4. After installation is complete, a terminal window will open
-5. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/setupChromebook.sh | bash
+Enter the following commands into the terminal:
+5. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash
+6. CLOSE the terminal window and then reopen the terminal before entering the next command.
+7. nvm install node
+8. echo nvm ls
+9. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/setupChromebook.sh | bash
