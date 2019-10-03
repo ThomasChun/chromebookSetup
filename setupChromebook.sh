@@ -13,35 +13,9 @@
 # echo ""
 # echo ""
 
-# ### install nvm
-# echo "sudo wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash"
-# sudo wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-# echo ""
-# echo ""
-# echo END installing nvm
-# echo ""
-# echo ""
-
-### install node
-# . ~/.nvm/nvm.sh
-# echo BEGIN installing node
-# echo ""
-# echo nvm install node
-# nvm install node
-# echo ""
-# echo ""
-# echo nvm ls
-# nvm ls
-# echo ""
-# echo ""
-
 ### install nvm
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash"
 # sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvm/install.sh | bash
-
-### run nvm commands to prevent having to close terminal to refresh
-# echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash"
-# sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash
 
 ### install node
 # echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/node/install.sh | bash"

@@ -27,8 +27,8 @@ Usage:
 3. Click the Install button
 4. After installation is complete, a terminal window will open
 Enter the following commands into the terminal:
-5. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/nvmcmd/install.sh | bash
+5. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/initial/install.sh | bash
 6. CLOSE the terminal window and then reopen the terminal before entering the next command.
 7. nvm install node
-8. echo nvm ls
+8. nvm ls
 9. sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/setupChromebook.sh | bash
