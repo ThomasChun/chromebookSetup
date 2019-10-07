@@ -15,19 +15,19 @@ echo ""
 echo "mvn clean package -DskipTests"
 mvn clean package -DskipTests
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh
+echo "wget https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/dataloader.sh"
+wget https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/dataloader.sh
 echo ""
 echo "sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh"
 sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png
+echo "wget https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/dataloader.png"
+wget https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/dataloader.png
 echo ""
 echo "sudo mv dataloader.png /usr/share/pixmaps/dataloader.png"
 sudo mv dataloader.png /usr/share/pixmaps/dataloader.png
 echo ""
-#echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop"
+#echo "wget https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/dataloader/dataloader.desktop"
 echo Create desktop file for dataloader
 sudo echo "
 [Desktop Entry]
